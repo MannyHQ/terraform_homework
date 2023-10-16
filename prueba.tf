@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "digitalocean" {
-  token = "dop_v1_7513ceec4a40abbc7af23be3de9c754c7cc4a25bdf5b5dc4cb0fa29add877bd4"
+  token = "clave" #Aqui va su token de digital ocean
 }
 
 resource "digitalocean_ssh_key" "default" {
