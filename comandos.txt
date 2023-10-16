@@ -1,0 +1,7 @@
+ssh-keygen -t rsa -b 2048 -f public_key
+
+creacion de llave, luego agregar la extension a public_key a public_key.pem
+
+luego agregar firewall para permitir conexiones ssh en digitalocean.
+
+ssh -i public_key.pem root@
